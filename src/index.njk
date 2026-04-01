@@ -12,7 +12,7 @@ title: "Inicio - Curso de IA"
   {%- for post in collections.clase -%}
     <li class="post-card">
       <small>{{ post.date | dateFilter }}</small>
-      <a href="{{ pathPrefix }}posts/{{ post.fileSlug }}/">{{ post.data.title }}</a>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       
       {# Si el artículo tiene descripción, la muestra #}
       <p>{{ post.data.description | default("Haz clic para leer más sobre este tema...") }}</p>
