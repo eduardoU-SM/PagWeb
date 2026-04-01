@@ -1,0 +1,114 @@
+:root {
+  --primary: #2d3436;
+  --accent: #0984e3;
+  --text: #2d3436;
+  --bg: #f5f6fa;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  line-height: 1.6;
+}
+
+body > header {
+  background-color: var(--primary);
+  padding: 1rem 0;
+  color: var(--white);
+}
+
+article header {
+  background-color: transparent; 
+  padding: 0;
+  text-align: left;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 2rem;
+}
+
+/* Estilos de navegación */
+header nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+}
+
+header nav a {
+  color: white; /* Letras blancas para el menú oscuro */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Sección Hero */
+.hero {
+  background: linear-gradient(135deg, #2d3436 0%, #000000 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+/* Grid de Tarjetas */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  list-style: none;
+}
+
+.post-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+}
+
+.post-card a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: block;
+}
+article h1 {
+  color: var(--primary);
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+article p {
+  color: #636e72; 
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+.container {
+  max-width: 1100px; /* Ancho máximo para que la lectura sea cómoda */
+  margin: 0 auto;    /* Centra el bloque horizontalmente */
+  padding: 0 2rem;   /* Para que en móviles no toque los bordes */
+}
