@@ -3,7 +3,8 @@ name: Build and Deploy Eleventy
 on:
   push:
     branches:
-      - main  # se ejecuta cada vez que haces push a main
+      - main
+
 permissions:
   contents: write
 
@@ -25,8 +26,14 @@ jobs:
       - name: Build Eleventy site
         run: npx eleventy
 
+      - name: Verify generated files
+        run: ls -R _site   # Muestra los archivos generados para depuración
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages   # Asegura que se publique en gh-pages
+          user_name: github-actions
+          user_email: github-actions@github.com
