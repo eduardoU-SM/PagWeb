@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header>
+    <h1>{{ title }}</h1>
+    <p>Publicado por {{ site.author }} el {{ page.date | dateFilter }}</p>
+  </header>
+  
+  <div class="content">
+    {{ content | safe }}
+  </div>
+</article>
