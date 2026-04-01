@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # se ejecuta cada vez que haces push a main
+permissions:
+  contents: write
 
 jobs:
   build:
