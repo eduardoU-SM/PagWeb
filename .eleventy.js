@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
       output: "_site",       // La web generada sigue yendo a _site
       includes: "_includes", // Relativo a la carpeta input (src)
       data: "_data"          // Para tus variables globales
-    }
+    },
+    pathPrefix: "/PagWeb/"
   };
 };
