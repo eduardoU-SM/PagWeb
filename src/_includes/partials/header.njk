@@ -1,11 +1,10 @@
 <header>
   <nav class="container">
-    <strong><a href="/PagWeb/">{{ site.title }}</a></strong>
+    <strong><a href="{{ '/' | url }}">{{ site.title }}</a></strong>
 
     <ul>
-      <li><a href="/PagWeb/">Inicio</a></li>
-      <li><a href="/PagWeb/posts/">Artículos</a></li>
+      <li><a href="{{ '/' | url }}">Inicio</a></li>
+      <li><a href="{{ '/posts/' | url }}">Artículos</a></li>
     </ul>
-
   </nav>
 </header>
