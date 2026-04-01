@@ -3,7 +3,7 @@ name: Build and Deploy Eleventy
 on:
   push:
     branches:
-      - main  # cada vez que hagas push a main
+      - main  # se ejecuta cada vez que haces push a main
 
 jobs:
   build:
