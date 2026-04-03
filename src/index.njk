@@ -3,21 +3,85 @@ layout: layouts/base.njk
 title: "Inicio - Curso de IA"
 ---
 
+{# 1. Sección Hero #}
 <section class="hero">
   <h1>{{ site.title }}</h1>
   <p>{{ site.description }}</p>
 </section>
 
-<ul class="post-grid">
-  {%- for post in collections.clase -%}
-    <li class="post-card">
-      <small>{{ post.date | dateFilter }}</small>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      
-      {# Si el artículo tiene descripción, la muestra #}
-      <p>{{ post.data.description | default("Haz clic para leer más sobre este tema...") }}</p>
-      
-      <span class="read-more">Leer artículo →</span>
-    </li>
-  {%- endfor -%}
-</ul>
+{# 2. Galería de 3 Imágenes (Agregué enlaces de ejemplo de Unsplash) #}
+<section class="visual-gallery">
+  <img src="" alt="IA Concepto 1">
+  <img src="" alt="IA Concepto 2">
+  <img src="" alt="IA Concepto 3">
+</section>
+
+{# 3. Resumen del Sílabo #}
+<section class="silabo-summary">
+  <h2>Resumen del Sílabo</h2>
+  <p>En este curso exploraremos los fundamentos de la Inteligencia Artificial, su evolución histórica y su impacto en la sociedad actual. Desarrollaremos habilidades analíticas y prácticas mediante clases teóricas, tareas aplicadas y laboratorios colaborativos liderados por el <strong>{{ site.author }}</strong>.</p>
+</section>
+
+{# 4. Tabla de Cronograma #}
+<section class="syllabus-table-container">
+  <h2>Cronograma del Curso</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Semana</th>
+        <th>Descripción del Tema</th>
+        <th>Clases</th>
+        <th>Tareas</th>
+        <th>Laboratorio</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for post in collections.clase -%}
+      <tr>
+        {# Celda 1: Número de Semana #}
+        <td class="col-semana">
+          <strong>{{ loop.index }}</strong>
+        </td>
+
+        {# Celda 2: Título y Contenido del MD #}
+        <td class="col-tema">
+          <span class="tema-titulo">{{ post.data.title }}</span>
+          <small class="tema-descripcion">
+            {# Usamos el filtro 'limpiar' para quitar etiquetas HTML del cuerpo del MD #}
+            {{ post.templateContent | limpiar | truncate(160) }}
+          </small>
+        </td>
+        
+        {# Celda 3: Clases #}
+        <td class="col-icon">
+          {% if post.data.link_clases %}
+            <a href="{{ post.data.link_clases }}" target="_blank" title="Ir a Clases">🎓</a>
+          {% else %}
+            <span class="empty-icon">-</span>
+          {% endif %}
+        </td>
+
+        {# Celda 4: Tareas #}
+        <td class="col-icon">
+          {% if post.data.link_tareas %}
+            <a href="{{ post.data.link_tareas }}" target="_blank" title="Ver Tarea">📝</a>
+          {% else %}
+            <span class="empty-icon">-</span>
+          {% endif %}
+        </td>
+
+        {# Celda 5: Laboratorio #}
+        <td class="col-icon">
+          {% if post.data.link_lab %}
+            <a href="{{ post.data.link_lab }}" target="_blank" title="Abrir Laboratorio">🔬</a>
+          {% else %}
+            <span class="empty-icon">-</span>
+          {% endif %}
+        </td>
+      </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+</section>
+
+{# 5. Contador de Visitas #}
