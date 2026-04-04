@@ -47,8 +47,7 @@ title: "Inicio - Curso de IA"
         <td class="col-tema">
           <span class="tema-titulo">{{ post.data.title }}</span>
           <small class="tema-descripcion">
-            {# Usamos el filtro 'limpiar' para quitar etiquetas HTML del cuerpo del MD #}
-            {{ post.templateContent | limpiar | truncate(160) }}
+            {{ post.templateContent | safe }}
           </small>
         </td>
         
