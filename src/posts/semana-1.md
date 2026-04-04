@@ -1,7 +1,11 @@
 ---
-title: "Semana 1: Introducción a la IA"
+title: "Semana 1 – Fundamentos de Inteligencia Artificial"
 date: 2026-04-01
 link_clases: "https://canva.link/vw0w9ei79dwaaro"
 ---
-
-Subtemas: Historia de la IA, Test de Turing, IA Débil vs Fuerte.
+### Temas
+- Conceptos de Inteligencia Artificial
+- Historia de la IA
+- Áreas de la Inteligencia Artificial
+- Introducción al Aprendizaje Automático
+- Niveles de la Inteligencia Artificial
