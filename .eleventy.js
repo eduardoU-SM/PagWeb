@@ -7,12 +7,6 @@ module.exports = function(eleventyConfig) {
       day: 'numeric'
     });
   });
-  // 2. Filtro limpiar
-  eleventyConfig.addFilter("limpiar", (content) => {
-    if (!content) return "";
-    // Elimina etiquetas HTML para que no rompan la tabla
-    return content.replace(/<\/?[^>]+(>|$)/g, "").trim();
-  });
   // Copia la carpeta de assets (CSS, imágenes) al sitio final
   eleventyConfig.addPassthroughCopy("src/assets");
 
