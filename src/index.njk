@@ -19,7 +19,13 @@ title: "Inicio - Curso de IA"
 {# 3. Resumen del Sílabo #}
 <section class="silabo-summary">
   <h2>Resumen del Sílabo</h2>
-  <p>En este curso exploraremos los fundamentos de la Inteligencia Artificial, su evolución histórica y su impacto en la sociedad actual. Desarrollaremos habilidades analíticas y prácticas mediante clases teóricas, tareas aplicadas y laboratorios colaborativos liderados por el <strong>{{ site.author }}</strong>.</p>
+  <div class="resumen-contenido">
+    {%- for pagina in collections.all -%}
+      {%- if pagina.data.identificador == "resumen_principal" -%}
+        {{ pagina.templateContent | safe }}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
 </section>
 
 {# 4. Tabla de Cronograma #}
