@@ -1,6 +1,6 @@
 ---
 title: "Métodos Supervisados (Machine Learning)"
-date: 2026-04-06
+date: 2026-04-27
 ---
 - Fundamentos de Machine Learning
 - Fundamentos del aprendizaje supervisado
