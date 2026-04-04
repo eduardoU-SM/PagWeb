@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "IA Creativa y Ética"
 date: 2026-06-29
 ---
 - Concepto de IA creativa
