@@ -1,6 +1,6 @@
 ---
 title: "Redes Neuronales Recurrentes (RNN)"
-date: 2026-06-8
+date: 2026-06-08
 ---
 - Limitaciones de ANN para secuencias
 - Introducción a RNN
