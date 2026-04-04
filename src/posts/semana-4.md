@@ -1,5 +1,5 @@
 ---
-tittle: "Juegos de Estrategia"
+title: "Juegos de Estrategia"
 ---
 - Juegos de estrategia humano-máquina
 - Algoritmos de juegos de estrategia
