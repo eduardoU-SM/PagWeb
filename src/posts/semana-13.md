@@ -1,6 +1,6 @@
 ---
 title: "Redes Generativas Adversarias (GAN)"
-date: 2026-06-23
+date: 2026-06-22
 ---
 - Generación de imágenes con IA
 - Transferencia de estilo
