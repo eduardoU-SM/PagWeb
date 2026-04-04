@@ -1,6 +1,6 @@
 ---
 title: "Fundamentos de Deep Learning"
-date: 2026-05-18
+date: 2026-05-25
 ---
 - Fundamentos de Deep Learning
 - Diferencias entre Machine Learning y Deep Learning
