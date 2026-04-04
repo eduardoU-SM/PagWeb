@@ -1,6 +1,6 @@
 ---
 title: "Métodos No Supervisados"
-date: 2026-05-4
+date: 2026-05-04
 ---
 - Fundamentos del aprendizaje no supervisado
 - Aplicaciones y limitaciones
