@@ -1,6 +1,6 @@
 ---
 title: "Fundamentos de IA Generativa"
-date: 2026-06-08
+date: 2026-06-15
 ---
 - Fundamentos de IA generativa
 - Diferencias entre modelos discriminativos y generativos
