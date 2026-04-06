@@ -134,10 +134,9 @@ footer {
   border: 4px solid var(--white); /* Un pequeño borde blanco las hace resaltar */
 }
 
-/*.visual-gallery img:hover {
+.visual-gallery img:hover {
   transform: scale(1.05); //Efecto de zoom suave
 }
-*/
 
 /* Ajuste para móviles: que no se vean gigantes */
 @media (max-width: 768px) {
