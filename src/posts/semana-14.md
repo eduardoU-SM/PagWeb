@@ -1,8 +1,9 @@
 ---
-title: "IA Creativa y Ética"
+title: "IA Creativa"
 date: 2026-06-29
 ---
-- Concepto de IA creativa
-- Aplicaciones en arte, música y narración
+- Concepto
+- Fundamentos y aplicaciones
+- Generación de arte (pintura, música, poesía, y narraciones) con IA
 - Marco legal en IA
-- Ética y futuro de la Inteligencia Artificial
+- Ética y futuro en la IA
