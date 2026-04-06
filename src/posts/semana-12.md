@@ -1,5 +1,5 @@
 ---
-title: "Fundamentos de IA Generativa"
+title: "Fundamentos de la IA Generativa y Modelos de Lenguaje"
 date: 2026-06-15
 ---
 - Fundamentos de IA generativa
@@ -7,5 +7,5 @@ date: 2026-06-15
 - Aplicaciones y limitaciones
 - Modelos generativos: GANs, VAEs y modelos autoregresivos
 - Transformers
-- Arquitectura de GPT
+- Arquitectura y funcionamiento de GPT (Generative Pre-trained Transformer).
 - Agentes con API
