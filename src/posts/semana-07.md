@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje por Refuerzo"
+title: "Métodos por Refuerzo"
 date: 2026-05-11
 ---
 - Fundamentos del aprendizaje por refuerzo
