@@ -212,8 +212,8 @@ tr:hover {
 
 /* Estilos de las celdas de iconos */
 .table-icon {
-  width: 24px;   /* Tamaño ideal para que no rompa la fila */
-  height: 24px;
+  width: 40px;   /* Tamaño ideal para que no rompa la fila */
+  height: 40px;
   object-fit: contain;
   transition: transform 0.2s ease;
   vertical-align: middle;
