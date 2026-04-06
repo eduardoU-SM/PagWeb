@@ -6,4 +6,4 @@ date: 2026-05-25
 - Diferencias entre Machine Learning y Deep Learning
 - Aplicaciones y limitaciones
 - Redes neuronales artificiales
-- Visualización de la convergencia del error en Python
+- ANN y visualización de la convergencia del error en Python
