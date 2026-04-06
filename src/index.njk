@@ -60,7 +60,9 @@ title: "Inicio - Curso de IA"
         {# Celda 3: Clases #}
         <td class="col-icon">
           {% if post.data.link_clases %}
-            <a href="{{ post.data.link_clases }}" target="_blank" title="Ir a Clases">🎓</a>
+            <a href="{{ post.data.link_clases }}" target="_blank">
+              <img src="{{ '/assets/img/logo-canvaicon.png' | url }}" alt="Canva" class="table-icon">
+            </a>
           {% else %}
             <span class="empty-icon">-</span>
           {% endif %}
