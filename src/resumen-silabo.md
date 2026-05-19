@@ -1,7 +1,7 @@
 ---
 identificador: resumen_principal
 ---
-### Grupo 3: Integrantes
+### Grupo 1: Integrantes
 
 | Integrante | Código |
 |---|---|
