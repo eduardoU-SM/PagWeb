@@ -238,7 +238,7 @@ tr:hover {
   display: inline-block;
   transition: transform 0.2s;*/
   
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
