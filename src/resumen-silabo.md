@@ -7,7 +7,7 @@ identificador: resumen_principal
 |---|---|
 | Carrasco Alcántara, María Alejandra | 23200151 |
 | Javier Tarapaqui, JeanFranco Luis | 23200183 |
-| Mendoza Segura, Sebastian Jesus | 23200190 |
+| Mendoza Segura?, Sebastian Jesus | 23200190 |
 | Rojas Suarez, Ana Cristina | 23200206 |
 | Sandoval Castillo, Robert Alonso | 23200212 |
 | Taipe Huamani, Sunmy Angelica | 23200219 |
