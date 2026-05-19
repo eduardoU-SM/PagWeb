@@ -38,7 +38,7 @@ title: "Inicio - Curso de IA"
         <th>Descripción del Tema</th>
         <th>Clases</th>
         <th>Tareas</th>
-        <th>Laboratorio</th>
+        <th>Tareas</th>
       </tr>
     </thead>
     <tbody>
@@ -80,7 +80,7 @@ title: "Inicio - Curso de IA"
         {# Celda 5: Laboratorio #}
         <td class="col-icon">
           {% if post.data.link_lab %}
-            <a href="{{ post.data.link_lab }}" target="_blank" title="Abrir Laboratorio">📝</a>
+            <a href="{{ post.data.link_lab }}" target="_blank" title="Ver Tarea">📝</a>
           {% else %}
             <span class="empty-icon">-</span>
           {% endif %}
