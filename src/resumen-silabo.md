@@ -1,6 +1,17 @@
 ---
 identificador: resumen_principal
 ---
+### Grupo 3: Integrantes
+
+| Integrante | Código |
+|---|---|
+| Carrasco Alcántara, María Alejandra | 23200151 |
+| Javier Tarapaqui, JeanFranco Luis | 23200183 |
+| Mendoza Segura, Sebastian Jesus | 23200190 |
+| Rojas Suarez, Ana Cristina | 23200206 |
+| Sandoval Castillo, Robert Alonso | 23200212 |
+| Taipe Huamani, Sunmy Angelica | 23200219 |
+
 
 ### Sobre la Asignatura
 La asignatura de **Inteligencia Artificial** es de naturaleza **teórico–práctica** y pertenece al área de formación especializada. Su propósito es desarrollar los fundamentos necesarios para diseñar y construir sistemas computacionales con capacidades inteligentes.
