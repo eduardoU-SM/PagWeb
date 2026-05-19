@@ -62,9 +62,7 @@ title: "Inicio - Curso de IA"
           {% if post.data.link_clases %}
             <a href="{{ post.data.link_clases }}" target="_blank">
               <img src="{{ '/assets/css/img/canvaicon.png' | url }}" alt="Canva" class="table-icon">
-              <span class="mini-text">
-                {{ post.data.titulo_clases }}
-              </span>
+              <small>{{ post.data.titulo_clases }}</small>
             </a>
           {% else %}
             <span class="empty-icon">-</span>
@@ -75,9 +73,7 @@ title: "Inicio - Curso de IA"
         <td class="col-icon">
           {% if post.data.link_tareas %}
             <a href="{{ post.data.link_tareas }}" target="_blank" title="Ver Tarea">📝</a>
-            <span class="mini-text">
-                {{ post.data.titulo_tareas }}
-            </span>
+            <small>{{ post.data.titulo_tareas }}</small>
           {% else %}
             <span class="empty-icon">-</span>
           {% endif %}
@@ -87,9 +83,7 @@ title: "Inicio - Curso de IA"
         <td class="col-icon">
           {% if post.data.link_lab %}
             <a href="{{ post.data.link_lab }}" target="_blank" title="Ver Tarea">📝</a>
-            <span class="mini-text">
-              {{ post.data.titulo_lab }}
-            </span>
+            <small>{{ post.data.titulo_lab }}</small>
           {% else %}
             <span class="empty-icon">-</span>
           {% endif %}
