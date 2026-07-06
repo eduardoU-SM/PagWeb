@@ -1,7 +1,7 @@
 ---
 title: "IA Creativa"
 date: 2026-06-29
-link_clases: "https://canva.link/4b32bv9jjte51zh"
+link_clases: "https://www.canva.com/design/DAHOnsUAfVo/smoyD-rpWEXmOQfK_ov41g/edit"
 ---
 - Concepto
 - Fundamentos y aplicaciones
